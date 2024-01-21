@@ -8,6 +8,10 @@
         "lib": ["DOM", "DOM.Iterable", "ESNext"],
         "target": "ES5",
         "module": "ESNext",
+        "baseUrl": "./src",
+        "paths": {
+            "@layouts/*": ["./layouts/*"],
+        }
     },
     "include": ["src/**/*"],
     "exclude": [
