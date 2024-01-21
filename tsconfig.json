@@ -5,22 +5,16 @@
         "checkJs": true,
         "allowJs": true,
         "jsx": "react",
-        "lib": [
-            "DOM",
-            "DOM.Iterable",
-            "ESNext"
-        ],
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
         "target": "ES5",
-        "module": "ESNext"
+        "module": "ESNext",
     },
-    "include": [
-        "src/**/*"
-    ],
+    "include": ["src/**/*"],
     "exclude": [
         "node_modules",
         "**/*.spec.ts",
         "**/*.spec.tsx",
         "**/*.test.ts",
-        "**/*.test.tsx"
-    ]
+        "**/*.test.tsx",
+    ],
 }
