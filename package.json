@@ -4,9 +4,26 @@
     "description": "Portfolio Website",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview"
     },
     "keywords": [],
     "author": "Sai Kumar <ksai44576@gmail.com>",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "astro": "^4.2.1"
+    },
+    "devDependencies": {
+        "@typescript-eslint/parser": "^6.19.0",
+        "cypress": "^13.6.3",
+        "eslint": "^8.56.0",
+        "eslint-plugin-astro": "^0.31.3",
+        "eslint-plugin-jsx-a11y": "^6.8.0",
+        "prettier": "^3.2.4",
+        "prettier-plugin-astro": "^0.13.0",
+        "typescript": "^5.3.3"
+    }
 }
