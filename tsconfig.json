@@ -1,0 +1,26 @@
+{
+    "extends": "astro/tsconfigs/base",
+    "compilerOptions": {
+        "verbatimModuleSyntax": true,
+        "checkJs": true,
+        "allowJs": true,
+        "jsx": "react",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "target": "ES5",
+        "module": "ESNext"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "**/*.spec.tsx",
+        "**/*.test.ts",
+        "**/*.test.tsx"
+    ]
+}
