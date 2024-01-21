@@ -12,4 +12,12 @@ module.exports = {
             rules: {},
         },
     ],
+    env: {
+        browser: true,
+        node: true,
+    },
+    parserOptions: {
+        sourceType: 'module',
+        ecmaVersion: 'latest',
+    },
 };
