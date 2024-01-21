@@ -1,0 +1,15 @@
+{
+    "arrowParens": "always",
+    "bracketSpacing": false,
+    "singleQuote": true,
+    "plugins": ["prettier-plugin-astro"],
+    "tabWidth": 4,
+    "overrides": [
+        {
+            "files": "*.{yml,yaml}",
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}
