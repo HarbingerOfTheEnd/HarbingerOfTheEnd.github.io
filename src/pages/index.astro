@@ -1,0 +1,64 @@
+---
+import MainLayout from '@layouts/MainLayout.astro';
+---
+
+<MainLayout title="Sai Kumar - Portfolio">
+    <header class="bg-gray-800 p-4 text-white">
+        <h1 class="text-heading p-5 text-center">Sai Kumar</h1>
+        <p class="leading-relaxed text-center">Web developer</p>
+    </header>
+    <section class="p-10">
+        <h2 class="text-heading">About me</h2>
+        <p class="leading-relaxed">
+            Currently a sophomore in Vellore Institute of Technology, Chennai.
+            Pursuing bachelors in Electronics and Computer Engineering. I have
+            worked primarily on web apps, and I have tested the waters of other
+            programming aspects.
+        </p>
+    </section>
+    <section class="p-10">
+        <h2 class="text-heading pb-5">Projects</h2>
+        <div class="flex flex-wrap gap-5">
+            <div
+                class="flex-1 w-full mx-2/3 sm:mx-[20px] bg-gray-700 p-5 rounded-[10px] mb-5 transition-transform duration-300 hover:scale-105"
+            >
+                <h3 class="text-heading">
+                    <a href="https://github.com/HarbingerOfTheEnd/EchoHub"
+                        >EchoHub</a
+                    >
+                </h3>
+                <p class="leading-relaxed">
+                    EchoHub is an open source project that is inspired by
+                    Discord. The server is written in Rust using the Actix
+                    framework. Although it is very much in its infancy, it aims
+                    to be a cross-platform chat application with native apps for
+                    Windows, Linux, Android and a web client. Currently, only
+                    the web client is being developed using Next.js and
+                    TypeScript.
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-800 p-4 text-center mt-auto">
+        <p class="text-gray-400">
+            Contact me at: <a
+                class="text-gray-400 hover:text-white mx-2"
+                href="mailto:ksai44576@gmail.com">ksai44576@gmail.com</a
+            >
+        </p>
+        <div class="flex justify-center mt-4">
+            <a
+                href="https://www.linkedin.com/in/sai-kumar-672128251"
+                class="text-gray-400 hover:text-white mx-2">LinkedIn</a
+            >
+            <a
+                href="https://github.com/HarbingerOfTheEnd"
+                class="text-gray-400 hover:text-white mx-2">GitHub</a
+            >
+            <a
+                href="https://twitter.com/TheTimeWizard01"
+                class="text-gray-400 hover:text-white mx-2">Twitter</a
+            >
+        </div>
+    </footer>
+</MainLayout>
